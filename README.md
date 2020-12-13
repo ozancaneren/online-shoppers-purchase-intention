@@ -19,13 +19,12 @@ The dataset was formed so that each session would belong to a different user.<br
 
 The "Special Day" feature indicates the closeness of the site visiting time to a specific special day (e.g. Mother’s Day, Valentine's Day) in which the sessions are more likely to be finalized with transaction. The value of this attribute is determined by considering the dynamics of e-commerce such as the duration between the order date and delivery date. For example, for Valentina’s day, this value takes a nonzero value between February 2 and February 12, zero before and after this date unless it is close to another special day, and its maximum value of 1 on February 8.
 
+
 The dataset also includes “Operating System”, “Browser”, “Region”, “Traffic Type”, “Visitor Type” as returning or new visitor. 
 
 There is a Boolean feature called “Weekend” indicating whether the date of the visit is weekend, and month of the year.
 
-The “Revenue” column is a Boolean attribute that used as the class label.<br>
-
-
+The “Revenue” column is a Boolean attribute that used as the class label.<br><br>
 
 The description and link for the data is: http://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset#<br><br><br>
 
