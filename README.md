@@ -30,4 +30,28 @@ The “Revenue” column is a Boolean attribute that used as the class label.
 
 
 
-The description and link for the data is: http://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset#
+The description and link for the data is: http://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset#<br><br><br>
+
+
+## C – Initial Model Building with All Features
+
+In the python notebook in this repository, I first build prediction models using all of the features in the data set. I use different methods such as:
+
+- Simple Decision Tree Classifier
+- Bagged Decision Trees Classifier
+- Random Forest Classifier
+- Adaptive Boosting Classifier
+- Gradient Boosting Classifier
+- XGBoost Classifier
+- LightGBM Classifier
+- CatBoost Classifier<br><br><br>
+
+## D – Feature Selecion (Method #1)
+
+I use the “feature_importances_” function to calculate feature importance values. I create much simpler models in which only the most important “n” features are to be found. This way, it is possible to achieve high ROC AUC Scores with much leaner and simpler models.<br><br><br>
+
+
+## E – Feature Selecion (Method #2)
+
+I use the “Recursive Feature Elimination” function find the most important “n” features. I create much simpler models in which only some of the most important selected features are to be found. This way, it is possible to achieve high ROC AUC Scores with much leaner and simpler models.
+
