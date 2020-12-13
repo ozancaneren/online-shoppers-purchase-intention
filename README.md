@@ -46,12 +46,16 @@ In the python notebook in this repository, I first build prediction models using
 - LightGBM Classifier
 - CatBoost Classifier<br><br><br>
 
-## D – Feature Selecion (Method #1)
+## D – Feature Selection (Method #1)
 
 I use the “feature_importances_” function to calculate feature importance values. I create much simpler models in which only the most important “n” features are to be found. This way, it is possible to achieve high ROC AUC Scores with much leaner and simpler models.<br><br><br>
 
 
-## E – Feature Selecion (Method #2)
+## E – Feature Selection (Method #2)
 
 I use the “Recursive Feature Elimination” function find the most important “n” features. I create much simpler models in which only some of the most important selected features are to be found. This way, it is possible to achieve high ROC AUC Scores with much leaner and simpler models.
+
+
+## F – Conclusion
+<img width="441" alt="Final Table" src="https://user-images.githubusercontent.com/75792293/102024207-b162c000-3da1-11eb-8747-31e8331b6f33.png">
 
