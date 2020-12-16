@@ -1,4 +1,4 @@
-# Online Shoppers Purchase Intention
+# Online Shoppers' Purchase Intention
 ## A - Data Set
 
 “Online Shoppers Purchasing Intention Dataset” consists of feature vectors belonging to 12,330 sessions.
